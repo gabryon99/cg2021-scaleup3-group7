@@ -67,7 +67,7 @@ def apply_watermark():
     r2 = s3_client.upload_file(qr_path, bucket_name, qr_name, ExtraArgs={'ACL': 'public-read'})
 
     # GENERATE REQUEST FOR WATERMARKER ✅
-    watermark_req_url = "https://watermarker.expeditedaddons.com/?api_key=" + os.environ['WATERMARKER_API_KEY']
+    watermark_req_url = "https://watermarker.expeditedaddons.com/?api_key=" + os.environ['WATERMARKER_API_KEY'] + "&image_url=" + qr_path + "&opacity=50&position=center&watermark_url=https%3A%2F%2Fwww.expeditedaddons.com%2Fwatermark.png"
 
     watermark_name = f"watermark_{filename}"
     request_and_save(watermark_req_url, watermark_name)
