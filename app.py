@@ -68,10 +68,15 @@ def apply_watermark():
 
     # GENERATE REQUEST FOR WATERMARKER ✅
     watermark_req_url = "https://watermarker.expeditedaddons.com/?api_key=" + os.environ['WATERMARKER_API_KEY'] + "&image_url=" + get_s3_url(bucket_name, filename) + "&opacity=50&position=center&watermark_url=" + get_s3_url(bucket_name, qr_name)
+    with open('test.txt', 'w') as f:
+        f.writelines([watermark_req_url])
+    test_path = os.path.join(app.config['UPLOAD_FOLDER'], 'test.txt')
+    s3_client.upload_file(test_path, bucket_name, 'test.txt', ExtraArgs={'ACL': 'public-read'})
+
     watermark_name = f"watermark_{filename}"
     request_and_save(watermark_req_url, watermark_name)
 
-    print("watermark done")
+    print("watermark done") 
 
     # clean bucket
     s3_client.delete_object(Bucket=bucket_name, Key=qr_name)
