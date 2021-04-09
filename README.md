@@ -9,7 +9,7 @@ The members of the group are:
 * [Innocenzo Fulginiti](https://github.com/InnocenzoFulginiti)
 * [Tommaso Lencioni](https://github.com/TommasoLencioni)
 * Teodorico Pacini
-* Stefano Pea(https://github.com/StefanoPea)
+* [Stefano Pea](https://github.com/StefanoPea)
 * Alessio Delgadillo
 * Davide Ricci
 * Calogero Mongitore
