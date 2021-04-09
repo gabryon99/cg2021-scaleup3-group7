@@ -8,4 +8,11 @@ The goal of the assignment was to complete the provided python script, in order 
 The members of the group are:
 * [InnocenzoFulginiti](https://github.com/InnocenzoFulginiti)
 * [TommasoLencioni](https://github.com/TommasoLencioni)
+* Teodorico Pacini
+* Stefano Pea
+* Alessio Delgadillo
+* Davide Ricci
+* Calogero Mongitore
+* Fabio Federico
+* Igor Vigiani
 
