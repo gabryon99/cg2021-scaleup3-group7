@@ -68,7 +68,7 @@ def apply_watermark():
 
     # GENERATE REQUEST FOR WATERMARKER ✅
     watermark_req_url = "https://watermarker.expeditedaddons.com/?api_key=" + os.environ['WATERMARKER_API_KEY'] + "&image_url=" + path + "&opacity=50&position=center&watermark_url=" + qr_path
-
+    print(watermark_req_url)
     watermark_name = f"watermark_{filename}"
     request_and_save(watermark_req_url, watermark_name)
 
