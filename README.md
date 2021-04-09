@@ -6,10 +6,10 @@ The goal of the assignment was to complete the provided python script, in order 
 #### Group Seven's Members
 
 The members of the group are:
-* [InnocenzoFulginiti](https://github.com/InnocenzoFulginiti)
-* [TommasoLencioni](https://github.com/TommasoLencioni)
+* [Innocenzo Fulginiti](https://github.com/InnocenzoFulginiti)
+* [Tommaso Lencioni](https://github.com/TommasoLencioni)
 * Teodorico Pacini
-* Stefano Pea
+* Stefano Pea(https://github.com/StefanoPea)
 * Alessio Delgadillo
 * Davide Ricci
 * Calogero Mongitore
